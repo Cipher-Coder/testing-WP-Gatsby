@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-headless-wordpress",
+  "name": "testingwpgatsby",
   "description": "A Starter Gatsby project to use WordPress as a headless CMS",
   "version": "1.0.0",
-  "author": "Alex Crocker <hello@crock.dev>",
+  "author": "Matthew Rebehn <matthew@mattaz.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.51",
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crock/gatsby-starter-headless-wordpress"
+    "url": "https://github.com/Cipher-Coder/testing-WP-Gatsby"
   }
 }

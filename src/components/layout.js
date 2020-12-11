@@ -5,17 +5,17 @@ import styled from "styled-components"
 
 import Header from "./header"
 import Sidebar from "./sidebar"
-import RecentPosts from './recent-posts'
+import RecentPosts from "./recent-posts"
 import "./layout.css"
-import igIcon from '../images/instagram-icon.svg'
-import twtrIcon from '../images/twitter-icon.svg'
+import igIcon from "../images/instagram-icon.svg"
+import twtrIcon from "../images/twitter-icon.svg"
 
 const Container = styled.div`
   margin: 0 auto;
   max-width: 1170px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 `
 
 const PageContent = styled.div`
@@ -66,19 +66,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} siteDesc={data.site.siteMetadata.description} />
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        siteDesc={data.site.siteMetadata.description}
+      />
       <Container>
         <PageContent className="page-content">
           <Main>{children}</Main>
           <Sidebar>
             <RecentPosts />
-
           </Sidebar>
         </PageContent>
 
         <Footer>
           <Socials className="social-icons">
-          <a href="https://twitter.com/crocdomains">
+            <a href="https://twitter.com/crocdomains">
               <img src={twtrIcon} alt="twitter icon" />
             </a>
             <a href="https://instagram.com/crocdesigns">

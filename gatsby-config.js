@@ -1,11 +1,11 @@
-require('dotenv').config()
+require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
     title: `Gatsby`,
     description: `Gatsby + Headless WordPress`,
-    author: `@acrockr`,
-    siteUrl: `https://gatsby-starter-headless-wp.netlify.com`
+    author: `@MRebehn`,
+    siteUrl: `https://mattaz.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,7 +34,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your wordpress source
-        baseUrl: `cms.botwrangler.me`,
+        baseUrl: `cms.mattaz.dev`,
         protocol: `https`,
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,
@@ -45,15 +45,15 @@ module.exports = {
         //   htaccess_pass: process.env.WP_PASS,
         //   htaccess_sendImmediately: false,
         // },
-        excludedRoutes: []
-      }
+        excludedRoutes: [],
+      },
     },
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
         googleAdClientId: "",
-        head: false // Optional
-      }
+        head: false, // Optional
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -82,7 +82,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
