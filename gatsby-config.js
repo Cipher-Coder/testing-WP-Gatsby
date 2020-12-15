@@ -49,13 +49,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        googleAdClientId: "",
-        head: false, // Optional
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-000000-2",

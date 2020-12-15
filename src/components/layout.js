@@ -80,14 +80,14 @@ const Layout = ({ children }) => {
 
         <Footer>
           <Socials className="social-icons">
-            <a href="https://twitter.com/crocdomains">
+            <a href="https://twitter.com/MRebehn">
               <img src={twtrIcon} alt="twitter icon" />
             </a>
-            <a href="https://instagram.com/crocdesigns">
+            <a href="https://instagram.com/matthewrebehn">
               <img src={igIcon} alt="instagram icon" />
             </a>
           </Socials>
-          © {new Date().getFullYear()} Alex Crocker, Built with
+          © {new Date().getFullYear()} Mattaz Web Design, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </Footer>
