@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import logo from "../images/gatsby-icon.png"
+import logo from "../images/logoMine500.png"
 
 const Header = ({ siteTitle, siteDesc }) => (
   <header
@@ -31,7 +31,7 @@ const Header = ({ siteTitle, siteDesc }) => (
         <img
           src={logo}
           alt="logo"
-          width="100"
+          width="100px"
           style={{
             display: "inline-block",
             marginBottom: 0,
